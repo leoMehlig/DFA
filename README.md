@@ -6,7 +6,7 @@ A [Deterministic Finit Automaton](https://en.wikipedia.org/wiki/Deterministic_fi
 
 ## How to get the Playground Book
 
-- Just download the [Swift Playground](https://www.apple.com/swift/playgrounds/).
+- Just download the [Swift Playground](https://www.apple.com/swift/playgrounds/) App.
 - Then download the Playground Book [here](https://github.com/leoMehlig/DFA/releases/download/1.0/DFA.playgroundbook) on your iPad.
 
 ## My WWDC19 Scholarship Application
