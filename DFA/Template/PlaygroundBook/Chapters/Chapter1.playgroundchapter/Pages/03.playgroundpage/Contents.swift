@@ -46,13 +46,13 @@ func startTrain() {
 /*:
  # The Subway Map
 
-The definition of a DFA can be quit confusing and hard to understand. But if you visulize it it in the correct way it becomes easy.
+The definition of a DFA can be quite confusing and hard to understand. But if you visualize it in the correct way it becomes easy.
 
- Imagin a subway/tube/underground map! There are stations and differntly colors lines to connect them. In this example each station represents a state in the DFA, the color of the lines tells us with which character you can "drive" from one station to another and the emojis on the train can be seen as intruction which line to take next.
+ Imagin a subway/tube/underground map! There are stations and differently colored lines to connect them. In this example each station represents a state in the DFA, the color of the lines tells us with which character you can "drive" from one station to another and the emojis on the train can be seen as instruction which line to take next.
 
  ## The App Development Lifecycle
 
- The example on the right describs the app development cycle using emojis. Every app starts with an idea 💡! Then we need to code, code and code 👨‍💻. When we encounter a bug 🐛, we need to code 👨‍💻 again! Finally we can release the app 📲 and make some money 💸. When this happens we can party 🎉 as much as we want to.
+ The example on the right describes the app development cycle using emojis. Every app starts with an idea 💡! Then we need to code, code and code 👨‍💻. When we encounter a bug 🐛, we need to code 👨‍💻 again! Finally we can release the app 📲 and make some money 💸. When this happens we can party 🎉 as much as we want to.
 
  Let's test this example using the Subway Map on the right:
  1. Tap the emojis to add them to the train.

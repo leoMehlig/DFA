@@ -18,7 +18,7 @@
  - and a list of transitions between those states.
 
  On the right you can see the definition for a DFA that a string of emojies, which represents the weather of any number of days.
- It always has to start with sunrise 🌅 and end with night 🌜. There are also some other rules, like that sun 🌞 can't be direclty followed by rain 🌧.
+ It always has to start with sunrise 🌅 and end with night 🌜. There are also some other rules, like that sun 🌞 can't be directly followed by rain 🌧.
 
  It's a bit hard to understand and the diagram looks a bit messy.
 
@@ -71,7 +71,7 @@ let automaton = try DFA(alphabete: alphabete,
     transitions: transitions)
 
 //: Now test the DFA, using the `check(word:)` method, against some string or use the predefined `exampleString`.
-//: Then it "Run My Code" to execute the DFA.
+//: Then hit "Run My Code" to execute the DFA.
 //#-hidden-code
 import PlaygroundSupport
 
@@ -122,7 +122,7 @@ let exampleString = "🌅🌞☁️🌧☁️🌧⛈🌧☁️🌞☁️🌜"
 
 if !checkCalled {
     page.assessmentStatus = PlaygroundPage.AssessmentStatus.fail(hints: [
-        "You didn't test the DFA. How do you now if it works?"
+        "You didn't test the DFA. How do you know if it works?"
         ], solution: "Add check(word: \"🌅🌞🌜\") for a start.")
 }
 //#-end-hidden-code

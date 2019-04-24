@@ -10,7 +10,7 @@
 /*:
  # Deterministic Finite Automaton
 
- A deterministic finite automation (short **DFA**) is a finite-state maschine that accepts or rejects a word.
+ A deterministic finite automaton (short **DFA**) is a finite-state machine that accepts or rejects a word.
  Like a *regular expression*, it can be used determine if a string of characters is part of a certain *regular language*.
  Although a DFA is an abstract concept from the theory of computation,
  it is often used to to check if an email address is valid or if a number was entered in the correct format.
